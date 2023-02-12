@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/music_shop/static/css/main.e1704ac6.css",
-    "main.js": "/music_shop/static/js/main.b8605302.js",
+    "main.css": "/music_shop/static/css/main.a68c4fe1.css",
+    "main.js": "/music_shop/static/js/main.46fc1f79.js",
     "static/media/adam-audio-a3x.png": "/music_shop/static/media/adam-audio-a3x.6b2a671e0c2294d5004e.png",
     "static/media/Akai_APC40_MKII.png": "/music_shop/static/media/Akai_APC40_MKII.a274cf6799f9743bd253.png",
     "static/media/10900940.png": "/music_shop/static/media/10900940.93796e80c860a06b75ab.png",
@@ -52,6 +52,7 @@
     "static/media/13153219.jpg": "/music_shop/static/media/13153219.ecdbf9325a285e07ae56.jpg",
     "static/media/nativeinstruments_tr_1.jpg": "/music_shop/static/media/nativeinstruments_tr_1.6c010fb6bd26c5b00148.jpg",
     "static/media/beyerdynamic_dt_990_.jpg": "/music_shop/static/media/beyerdynamic_dt_990_.03513468cf5f940dbae2.jpg",
+    "static/media/close.png": "/music_shop/static/media/close.da78478835d0201f17c9.png",
     "static/media/51Qmdk-_vQL.jpg": "/music_shop/static/media/51Qmdk-_vQL.468af74afb77f3a664be.jpg",
     "static/media/new_momentum3_ae_bt_.jpg": "/music_shop/static/media/new_momentum3_ae_bt_.5f0194b818a8ba99a8f8.jpg",
     "static/media/bowers_wilkins_px5_s.jpg": "/music_shop/static/media/bowers_wilkins_px5_s.822de83a913198b6124c.jpg",
@@ -67,11 +68,11 @@
     "static/media/7.png": "/music_shop/static/media/7.44f6a45deaf426ce1066.png",
     "static/media/5.png": "/music_shop/static/media/5.8f83f981093e967f66aa.png",
     "index.html": "/music_shop/index.html",
-    "main.e1704ac6.css.map": "/music_shop/static/css/main.e1704ac6.css.map",
-    "main.b8605302.js.map": "/music_shop/static/js/main.b8605302.js.map"
+    "main.a68c4fe1.css.map": "/music_shop/static/css/main.a68c4fe1.css.map",
+    "main.46fc1f79.js.map": "/music_shop/static/js/main.46fc1f79.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1704ac6.css",
-    "static/js/main.b8605302.js"
+    "static/css/main.a68c4fe1.css",
+    "static/js/main.46fc1f79.js"
   ]
 }
