@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/music_shop/static/css/main.e1704ac6.css",
-    "main.js": "/music_shop/static/js/main.fcf55f07.js",
+    "main.js": "/music_shop/static/js/main.b8605302.js",
     "static/media/adam-audio-a3x.png": "/music_shop/static/media/adam-audio-a3x.6b2a671e0c2294d5004e.png",
     "static/media/Akai_APC40_MKII.png": "/music_shop/static/media/Akai_APC40_MKII.a274cf6799f9743bd253.png",
     "static/media/10900940.png": "/music_shop/static/media/10900940.93796e80c860a06b75ab.png",
@@ -68,10 +68,10 @@
     "static/media/5.png": "/music_shop/static/media/5.8f83f981093e967f66aa.png",
     "index.html": "/music_shop/index.html",
     "main.e1704ac6.css.map": "/music_shop/static/css/main.e1704ac6.css.map",
-    "main.fcf55f07.js.map": "/music_shop/static/js/main.fcf55f07.js.map"
+    "main.b8605302.js.map": "/music_shop/static/js/main.b8605302.js.map"
   },
   "entrypoints": [
     "static/css/main.e1704ac6.css",
-    "static/js/main.fcf55f07.js"
+    "static/js/main.b8605302.js"
   ]
 }
