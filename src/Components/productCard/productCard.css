@@ -3,12 +3,34 @@
     src: url(../Fonts/FuturaPT-Light.ttf);
 }
 
+.product-card-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    transform: scale(0);
+    transition: 0.3s;
+    overflow: scroll;
+}
+
+.product-card-wrapper.active {
+    transform: scale(1);
+}
+
 .product-card {
-    font-family: Futura;
+    height: 100vh;
     width: 70%;
+    background-color: white;
+    font-family: Futura;
     min-width: 320px;
     display: flex;
-    margin: 100px auto 30px auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .product-card-img {
@@ -63,6 +85,32 @@
     background-color: rgb(232, 232, 232);
 }
 
+.product-card .back {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.product-card .button-img {
+    height: 40px;
+    width: 40px;
+    transition: 0.3s;
+}
+
+.product-card .button-img:hover {
+    height: 50px;
+    width: 50px;
+}
+
+.product-card .close {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+}
 
 
 @media (max-width: 860px) {

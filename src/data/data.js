@@ -9,6 +9,9 @@ import repr6 from '../Components/Representation/assets/6.png'
 import repr7 from '../Components/Representation/assets/7.png'
 import repr8 from '../Components/Representation/assets/8.png'
 
+import close from '../Components/productCard/assets/close.png'
+import back from '../Components/productCard/assets/arrow.png'
+
 const data = {
     Header: {
         logo: logo,
@@ -25,6 +28,11 @@ const data = {
     Main: {
         title: "Твій квиток у світ якісного звуку",
         description: "Play Vinyl є офіційним представником бренду Crosley, Audio-Technica, Pro-Ject, Yamaha, Klipsch, Jamo, Dali, Marantz, Denon, Thorens в Україні Широкий вибір програвачів вінілу, платівок, акустичних систем та предметів інтер'єру"
+    },
+    productCard: {
+        close: close, 
+        back: back,
+        buy: "Придбати"
     },
     Representation: {
         repr1: repr1,

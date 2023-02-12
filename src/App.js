@@ -14,20 +14,15 @@ function App() {
     <>
       <Header data={data.Header}/>
       <Routes>
-        <Route path='/' element={<Main data={data.Main}/>}/>
-        <Route path='/vinyl_players/*' element={<Productlist data={products.vinilPlayers}/>}/>
-        <Route path='/vinyl_players/:id' element={<ProductCard data={products.vinilPlayers}/>}/>
-        <Route path='/headphones/*' element={<Productlist data={products.headPhones}/>}/>
-        <Route path='/headphones/:id' element={<ProductCard data={products.headPhones}/>}/>
-        <Route path='/vinyl_plates/*' element={<Productlist data={products.vinyls}/>}/>
-        <Route path='/vinyl_plates/:id' element={<ProductCard data={products.vinyls}/>}/>
-        <Route path='/acoustic/*' element={<Productlist data={products.acoustics}/>}/>
-        <Route path='/acoustic/:id' element={<ProductCard data={products.acoustics}/>}/>
-        <Route path='/stuff/*' element={<Productlist data={products.stuff}/>}/>
-        <Route path='/stuff/:id' element={<ProductCard data={products.stuff}/>}/>
-        <Route path='/DJ_studio/*' element={<Productlist data={products.dj_studio}/>}/>
-        <Route path='/DJ_studio/:id' element={<ProductCard data={products.dj_studio}/>}/>
+        <Route path='/' element={<Main data={data.Main} />} />
+        <Route path='/vinyl_players/*' element={<Productlist data={products.vinilPlayers} />} />
+        <Route path='/headphones/*' element={<Productlist data={products.headPhones} />} />
+        <Route path='/vinyl_plates/*' element={<Productlist data={products.vinyls} />} />
+        <Route path='/acoustic/*' element={<Productlist data={products.acoustics} />} />
+        <Route path='/stuff/*' element={<Productlist data={products.stuff} />} />
+        <Route path='/DJ_studio/*' element={<Productlist data={products.dj_studio} />} />
       </Routes>
+      
       <Representation data={data.Representation}/>
       <Footer data={data.Footer}/>
     </>
