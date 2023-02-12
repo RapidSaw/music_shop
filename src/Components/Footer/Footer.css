@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Futura;
+    src: url(../Fonts/FuturaPT-Light.ttf);
+}
+
+footer {
+    font-family: Futura;
+    color: white;
+    width: 100%;
+    background-color: #000000;
+    padding: 70px 0 30px 5%;
+}
+
+.footer-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-content-wrapper div {
+    margin-bottom: 20px;
+    width: 20%;
+    min-width: 200px;
+}
+
+.footer-content-wrapper div p {
+    margin-top: 20px;
+}
+
+.footer-content-wrapper div p a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-content-wrapper div p a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.577); 
+}

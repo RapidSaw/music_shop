@@ -1,0 +1,33 @@
+.representation {
+    margin: 30px 0;
+}
+
+.representation .representation-title {
+    text-align: center;
+    margin: 40px 0 70px 0;
+}
+
+.representation .representation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.representation .representation-item {
+    width: 22%;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    border-right: 1px solid rgb(170, 170, 170);
+}
+
+.representation .representation-item:nth-child(4n) {
+    border-right: none;
+}
+
+.representation .representation-item:nth-child(n+5) {
+    border-bottom: none;
+}
+
+.representation .representation-item img {
+    margin: 0 auto;
+    width: 90%;
+}

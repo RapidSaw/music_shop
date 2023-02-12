@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Futura;
+    src: url(../Fonts/FuturaPT-Light.ttf);
+}
+
+header {
+    font-family: Futura;
+    font-size: 20px;
+    position: fixed;
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(198, 198, 198, 0.681);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 40px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
